@@ -11,6 +11,7 @@
 		989147FC2B4DC9F7005FBA7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989147FB2B4DC9F7005FBA7A /* ContentView.swift */; };
 		989147FE2B4DC9F8005FBA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989147FD2B4DC9F8005FBA7A /* Assets.xcassets */; };
 		989148012B4DC9F8005FBA7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989148002B4DC9F8005FBA7A /* Preview Assets.xcassets */; };
+		989148082B4DCB05005FBA7A /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989148072B4DCB05005FBA7A /* NewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		989147FB2B4DC9F7005FBA7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		989147FD2B4DC9F8005FBA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		989148002B4DC9F8005FBA7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		989148072B4DCB05005FBA7A /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				989147F92B4DC9F7005FBA7A /* InstagramMockApp.swift */,
 				989147FB2B4DC9F7005FBA7A /* ContentView.swift */,
+				989148072B4DCB05005FBA7A /* NewView.swift */,
 				989147FD2B4DC9F8005FBA7A /* Assets.xcassets */,
 				989147FF2B4DC9F8005FBA7A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989148082B4DCB05005FBA7A /* NewView.swift in Sources */,
 				989147FC2B4DC9F7005FBA7A /* ContentView.swift in Sources */,
 				989147FA2B4DC9F7005FBA7A /* InstagramMockApp.swift in Sources */,
 			);
