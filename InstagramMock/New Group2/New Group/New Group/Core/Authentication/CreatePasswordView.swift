@@ -27,8 +27,6 @@ struct CreatePasswordView: View {
       SecureField("Password", text: $password)
         .autocapitalization(.none)
         .modifier(TextFieldModifier())
-        .padding(.top)
-      
       
       NavigationLink {
         CompleteSignUpView()
