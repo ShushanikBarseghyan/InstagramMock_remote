@@ -19,8 +19,9 @@ struct MainTabView: View {
         .tabItem {
           Image(systemName: "magnifyingglass")
         }
-      
-      Text("Upload post")
+  
+      LoginVIew()
+//      Text("Upload post")
         .tabItem {
           Image(systemName: "plus.square")
         }
@@ -30,7 +31,7 @@ struct MainTabView: View {
           Image(systemName: "heart")
         }
       
-      ProfileView()
+      CurrentUserProfileView()
         .tabItem {
           Image(systemName: "person")
         }
