@@ -29,6 +29,8 @@
 		98DEDDC52B56F2260029ED39 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DEDDC42B56F2260029ED39 /* Post.swift */; };
 		98DEDDC72B56F7600029ED39 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DEDDC62B56F7600029ED39 /* PostGridView.swift */; };
 		98DEDDC92B56F9020029ED39 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DEDDC82B56F9020029ED39 /* ProfileHeaderView.swift */; };
+		98DEDDCB2B5853180029ED39 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DEDDCA2B5853180029ED39 /* UploadPostView.swift */; };
+		98DEDDCD2B5857CE0029ED39 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DEDDCC2B5857CE0029ED39 /* UploadPostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		98DEDDC42B56F2260029ED39 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		98DEDDC62B56F7600029ED39 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		98DEDDC82B56F9020029ED39 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		98DEDDCA2B5853180029ED39 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
+		98DEDDCC2B5857CE0029ED39 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +201,8 @@
 		989148142B4DD224005FBA7A /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
+				98DEDDCA2B5853180029ED39 /* UploadPostView.swift */,
+				98DEDDCC2B5857CE0029ED39 /* UploadPostViewModel.swift */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -309,9 +315,11 @@
 				989147FA2B4DC9F7005FBA7A /* InstagramMockApp.swift in Sources */,
 				989148172B4DD295005FBA7A /* MainTabView.swift in Sources */,
 				98DEDDBF2B546C470029ED39 /* CompleteSignUpView.swift in Sources */,
+				98DEDDCD2B5857CE0029ED39 /* UploadPostViewModel.swift in Sources */,
 				98DEDDC72B56F7600029ED39 /* PostGridView.swift in Sources */,
 				98DEDDB52B5020710029ED39 /* LoginVIew.swift in Sources */,
 				98DEDDB72B5025F80029ED39 /* AddEmailView.swift in Sources */,
+				98DEDDCB2B5853180029ED39 /* UploadPostView.swift in Sources */,
 				98DEDDB92B5468480029ED39 /* TextFieldModifier.swift in Sources */,
 				98DEDDC52B56F2260029ED39 /* Post.swift in Sources */,
 				98DEDDAC2B4DD9800029ED39 /* UserStatView.swift in Sources */,
